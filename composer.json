@@ -1,0 +1,30 @@
+{
+    "name": "arozie/lacarbone",
+    "description": "Carbone JS (http://carbone.io) Wrapper for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andri Fachrur Rozie",
+            "email": "4r53n1c@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/process": "^4.2",
+        "spatie/temporary-directory": "^1.1",
+    },
+    "autoload": {
+        "psr-4": {
+            "Arozie\\Lacarbone\\": "src"
+        }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Arozie\\Lacarbone\\LacarboneServiceProvider"
+        ],
+        "aliases": {
+        }
+    }
+}
+}
